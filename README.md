@@ -1,6 +1,6 @@
 # Product-Listing
-A product page for Code Banana
-Hosted at : https://solo-proj.netlify.app
+A product page for Code Banana hosted at : https://solo-proj.netlify.app
+
 This was my introductoin to React JS. It's a simple webpage layout. It calls the company API and populates the page with products.
 
 Through this project I learned:
