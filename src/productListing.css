@@ -1,0 +1,321 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Assets/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsThin;
+    src: url(Assets/Poppins/Poppins-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    position: absolute;
+}
+
+body{
+    min-width: 900px;
+}
+
+
+#VectorMidRight{
+    top: 150px;
+    right: 0px;
+}
+
+#VectorTopLeft{
+    top: 0px;
+    left: 0px;
+}
+
+
+#VectorMidMid{
+    top: 450px;
+    right: 240px;
+}
+
+#VectorMidLeft{
+    top: 400px;
+    left: 0px;
+}
+
+#VectorTopMid{
+    top: 19.41%;
+    right: 30%;
+}
+
+#VectorPlant{
+    right: 5vw;
+    top: 150vh;
+}
+
+#Plant{
+    right: 7vw;
+    top: 110vh;
+}
+
+nav{
+    position: absolute;
+    width: 90vw;
+    height: 20vh;
+    top: 0%;
+    left: 5vw;
+    padding-top: 6vh;
+}
+
+.grape{
+    position: absolute;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    display: inline;
+}
+
+.grape:hover{
+    cursor: pointer;
+}
+
+#options{
+    position:absolute;
+    height: 100%;
+    width: 30%;
+    left: 50%;
+    padding-top: 10px;
+}
+
+.option{
+    position: relative;
+    display: inline;
+    margin: 30px;
+
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Poppins;
+
+}
+
+.option:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+#login{
+    position: absolute;
+    height: 40px;
+    width: 175px;
+    right: 0px;
+}
+
+.container1{
+    position: relative;
+    padding-top: 10%px;
+    padding-left: 10%px;
+
+    width: 50vw;
+    height: 50vh;
+
+    left: 20vw;
+    top: 30vh;
+}
+
+button{
+    position: relative;
+    /* top: 527px;
+    left: 361px; */
+    width: 249px;
+    height: 60px;
+
+    background-image: linear-gradient(90deg, rgba(115, 224, 169, 1), rgba(91, 104, 223, 1));
+    border: 0px;
+    border-radius: 50px;
+
+    font-family: Poppins;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+button:hover{
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(36, 36, 36);
+}
+
+.title{
+    position: relative;
+    width: 539px;
+    height: 192px;
+    margin-bottom: 25px;
+    
+    
+    color: #212121;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.container2{
+    position: absolute;
+    width: 50%;
+    top: 150vh;
+    left: 5vw;
+}
+
+.subtitle{
+    width: 523px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+}
+
+.paragraph{
+    font-family: PoppinsThin;
+    font-weight: 500;
+    font-size: 24px;
+    width: 643px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.productContainer{
+    position: relative;
+    width: 100%;
+    top: 200vh;
+}
+
+.bigCard{
+    position:relative;
+    border-radius: 30px;
+    box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.15);
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+
+    width: 369px;
+    height: 440px;
+
+    margin: 4vw;
+
+    display: inline-block;
+
+    transition: 0.5s ease-out;
+}
+
+.bigCard:hover{
+    cursor: pointer;
+    transition: 0.5s ease-out;
+    box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.415);;
+}
+
+.imgCard{
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    height: 75%;
+    background-color: aliceblue;
+}
+
+.productImg{
+    width: 100%;
+    height: 100%;
+}
+
+.productName{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(21, 21, 21);
+
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.productPrice{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(116, 116, 116);
+
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.bottom{
+    position: relative;
+    height: 460px;
+}
+
+#botGrape{
+    bottom: 45%;
+    left: 5vw;
+}
+
+#botParagraph{
+    width: 459px;
+    left: 5vw;
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    font-family: PoppinsThin;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.container3{
+    position: absolute;
+    right: 0px;
+    top: 30%;
+}
+
+.footerBlock{
+    display: inline-table;
+    margin: 50px;
+    max-width: 15vw;
+}
+
+.footerTitle{
+    font-family: PoppinsThin;
+    font-weight: 100;
+    font-size: 20px;
+    
+    background: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    margin-bottom: 10px;
+}
+
+.footerItem{
+    font-family: PoppinsThin;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(21, 21, 21);
+
+    margin-top: 10px;
+}
+
+.followBox{
+    width: 40px;
+    height: 40px;
+
+    background: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%);
+    border-radius: 8px;
+    background-color: black;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+#loadMore{
+    position: absolute;
+    top: -30px;
+    left: 40vw;
+}
