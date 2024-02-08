@@ -1,7 +1,7 @@
 # Product-Listing
 A product page for Code Banana
 
-This was my introductoin to React JS. It's a simple webpage layout. for It calls the company API and populates the page with products.
+This was my introductoin to React JS. It's a simple webpage layout. It calls the company API and populates the page with products.
 
 Through this project I learned:
 * React basics
