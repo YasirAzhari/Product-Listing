@@ -10,4 +10,4 @@ Through this project I learned:
 
 ## Addition
 
-This is also the solo project for my application to chingu.io. I don't really intend to pursue frontened development but this is the only complete and hosted project I have as of right now.
+This is also the solo project for my application to chingu.io. I don't really intend to pursue frontened development but this is the only complete and hosted SOLO project I have as of right now.
